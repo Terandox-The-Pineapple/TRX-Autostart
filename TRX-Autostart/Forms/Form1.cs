@@ -11,5 +11,10 @@ namespace TRX_Autostart
         {
 
         }
+
+        private void optionToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
