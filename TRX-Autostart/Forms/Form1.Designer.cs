@@ -36,6 +36,7 @@
             this.optionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.localUserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.allUsersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,7 +66,6 @@
             this.allUsersToolStripMenuItem});
             this.optionToolStripMenuItem.Name = "optionToolStripMenuItem";
             resources.ApplyResources(this.optionToolStripMenuItem, "optionToolStripMenuItem");
-            this.optionToolStripMenuItem.Click += new System.EventHandler(this.optionToolStripMenuItem_Click);
             // 
             // localUserToolStripMenuItem
             // 
@@ -77,11 +77,17 @@
             this.allUsersToolStripMenuItem.Name = "allUsersToolStripMenuItem";
             resources.ApplyResources(this.allUsersToolStripMenuItem, "allUsersToolStripMenuItem");
             // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.Name = "label1";
+            // 
             // Main
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.MainMenuStrip = this.menuStrip1;
@@ -103,5 +109,6 @@
         private ToolStripMenuItem optionToolStripMenuItem;
         private ToolStripMenuItem localUserToolStripMenuItem;
         private ToolStripMenuItem allUsersToolStripMenuItem;
+        private Label label1;
     }
 }
